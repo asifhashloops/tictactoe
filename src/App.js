@@ -39,9 +39,12 @@ function App() {
     }
   };
   return (
-    <div className="App">
-      <Board board={board} onClick={handleClickBox} />
-    </div>
+    console.log("hey there"),
+    (
+      <div className="App">
+        <Board board={board} onClick={handleClickBox} />
+      </div>
+    )
   );
 }
 
