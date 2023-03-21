@@ -39,10 +39,11 @@ function App() {
     }
   };
   return (
-    console.log("hey there"),
+    console.log("hey there sjdsd"),
     (
       <div className="App">
         <Board board={board} onClick={handleClickBox} />
+        <p>hey there</p>
       </div>
     )
   );
